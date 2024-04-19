@@ -1,0 +1,27 @@
+/* 
+    --primary-color
+ */
+
+:root {
+  --primary-color: hsl(240 5.9% 10%);
+  --on-hover-bg: hsla(240, 6%, 10%, 0.9);
+  --focus-outline-color: transparent;
+  --highlight-bg: #353535;
+  --highlight-text-color: #e6e9ef;
+}
+
+.p-button:focus {
+  animation: scale 1s ease;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.85);
+  }
+  40% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
