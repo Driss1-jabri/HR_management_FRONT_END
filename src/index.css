@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
+/* 
+    --primary-color
+ */
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* 
-    --primary-color
- */
  :root {
    --primary-color: hsl(240 5.9% 10%);
    --on-hover-bg: hsla(240, 6%, 10%, 0.9);
