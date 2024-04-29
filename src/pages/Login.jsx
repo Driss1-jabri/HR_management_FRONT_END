@@ -1,4 +1,5 @@
-import { LoginForm } from "../components";
+
+import LoginForm from "../Components/LoginForm";
 import MainImg from "../assets/images/connection.jpg";
 const Login = () => {
   return (
@@ -9,16 +10,7 @@ const Login = () => {
       <div className="img-box">
         <img src={MainImg} />
         <div className="text-content">
-          <div className="text-header">
-            <h2>exploring the best community for your projects realisation</h2>
-          </div>
-          <div className="text-paragraph">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium incidunt architecto inventore illo fuga? Nisi est nemo
-              quod repellat distinctio.
-            </p>
-          </div>
+          
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ export const infosP = [
     {name: "Tel", Val: "066666666"},
     {name: "Date de naissance", Val: "00/00/0000"},
     {name: "Sexe", Val: "Homme"},
-    {name: "État civil", Val: "Compliqué"},
+    {name: "État civil", Val: "Marié"},
     {name: "Nombre d'enfant", Val: "0"},
   ];
 

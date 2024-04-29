@@ -1,11 +1,13 @@
 import React from 'react';
 import profile from '../../assets/images/profile.jpg'
 import {infosP, infosPr} from '../../constants'
+import { Button } from 'primereact/button';
+
 
 const UserInfo = () => {
   return (
-    <div className='w-11/12 m-auto'>
-      <div className="bg-sky-200	rounded-2xl flex items-center justify-between pl-4 p-4 mt-4">
+    <div className='w-11/12 m-auto' >
+      <div className="bg-white text-black	rounded-2xl flex items-center justify-between pl-4 p-4 mt-4 shadow-lg">
         <div className='flex items-center'>
           <div><img src={profile} className='w-40 h-40 rounded-full' round></img></div>
           <div className='ml-4 mb-0 inline'>
@@ -26,9 +28,9 @@ const UserInfo = () => {
             </div>
           </div>
         </div>
-        <a className='bg-cyan-300 rounded-2xl p-2 mr-2'>Modifier le Profile</a>
+        <a className='bg-black text-white rounded-2xl p-2 mr-2'>Modifier le Profile</a>
       </div>
-      <div className='mt-5 bg-sky-200	 rounded-3xl flex items-center justify-between p-4 pl-5'>
+      <div className='mt-5 bg-white text-black rounded-3xl flex items-center justify-between p-4 pl-5 shadow-lg'>
         <div className='sec1'>
           <h1 className="mb-4 border-b border-solid border-zinc-700 pb-2 font-semibold">Informations personnelles</h1>
           <div className='flex flex-col'>
@@ -42,7 +44,7 @@ const UserInfo = () => {
           </div>
         </div>
       </div>
-      <div className='mt-5 bg-sky-200	 rounded-3xl flex items-center justify-between p-4 pl-5'>
+      <div className='mt-5 bg-white text-black rounded-3xl flex items-center justify-between p-4 pl-5 shadow-lg'>
         <div className='sec1'>
           <h1 className="mb-4 border-b border-solid border-zinc-700 pb-2 font-semibold">Informations Professionnelles</h1>
           <div className='flex flex-col'>
