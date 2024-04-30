@@ -30,11 +30,10 @@ const MySidebar = () => {
                                     <ul className="list-none p-3 m-0">
                                         <li>
                                             <ul className="list-none p-0 m-0 overflow-hidden i">
-                                                <SideLink   title="Accueille"  />
-                                                <SideLink   title="pièces jointes"  />
-                                                <SideLink   title="Demandes"  />
-                                                <SideLink   title="Messages"  />
-                                                
+                                                <SideLink  icon="pi pi-home mr-2" title="Accueille"  />
+                                                <SideLink  icon="pi pi-file-o mr-2" title="Demandes"  />
+                                                <SideLink  icon="pi pi-paperclip mr-2" title="pièces jointes"  />
+                                                <SideLink  icon="pi pi-comments mr-2" title="Messages"  />
                                             </ul>
                                         </li>
                                     </ul>    
@@ -53,4 +52,4 @@ const MySidebar = () => {
     </div>
   )
 }
-  export default MySidebar
+export default MySidebar
